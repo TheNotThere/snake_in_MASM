@@ -467,7 +467,7 @@ processInputASM PROC
 
 processInputASM ENDP
 
-addNumbers PROC  ; FIXX PRINT PLAYER IT IS BROKEN IN THE DRAW AND CAUSES UNNESSISARY SLEEP
+addNumbers PROC 
     sub rsp, 28h
     call GetProcessHeap
     mov hHeap, rax
